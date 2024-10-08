@@ -13,7 +13,7 @@
     --color_text-secundary: #131b24;
     --color_text-tertiary: #f1f3f0;
     --main_color-primary: #f3f3f3;
-    --main_color-secundary: #0e0803;
+    --main_color-secundary: #070401;
     --background-color: #EFF0EF;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
@@ -72,7 +72,7 @@ header{
 }
 
 .menu nav ul li a{
-    color: var(--color_text-secundary);
+    color: var(--color_text-primary);
     font-size: var(--lowText_font_size);
     position: relative;
 }
@@ -93,7 +93,7 @@ header{
 }
 
 .btn_quote:hover{
-    color: white;
+    color: black;
     background: var(--color_text-primary);
 }
 
@@ -270,7 +270,7 @@ header{
 .text__about p{
     font-size: var(--text_paragraph);
     margin-top: 40px;
-    color: var(--color_text-tertiary);
+    color: var(--color_text-secundary);
 }
 
 
@@ -281,6 +281,27 @@ header{
 
 .image__about img{
     width: 300px;
+}
+
+.btn_text-about{
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: var(--main_color-secundary);
+    color: rgb(236, 234, 234);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn_text-about:hover{
+    background: transparent;
+    border: 2px solid var(--main_color-secundary);
+    color: var(--color_text-secundary);
 }
 
 /*End Sobre Nosotros*/
