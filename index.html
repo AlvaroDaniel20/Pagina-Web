@@ -28,16 +28,16 @@
                 <!--Menú-->
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Plans</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#plans">Plans</a></li>
+                        <li><a href="#tableProfesores">Contact</a></li>
                     </ul>
                 </nav>
                 <!--End Menu-->
                 <!--Button-->
-                <a href="#" class="btn_quote">Quote</a>
+                <a href="#form" class="btn_quote">Agenda tu cita</a>
                 <!--End Button-->
                 <!--Conainer Social Media-->
                 <div class="socialMedia">
@@ -66,7 +66,7 @@
 	<main>
         <!--Inicio-->
         <!--Portada Inicio-->
-        <div class="container__cover div__offset">
+        <div class="container__cover div__offset" id="home">
             <div class="cover">
                 <section class="text__cover">
                     <h1>Adquiera aquí sus productos!</h1>
@@ -107,7 +107,7 @@
         </div>
 		<!--End Generador de Confianza-->
 		<!--Sobre Nosotros - Nuestro Equipo-->
-        <div class="container__about div__offset">
+        <div class="container__about div__offset" id="about">
             <div class="about">
                 <div class="text__about">
                     <h1>Presentamos implementación deportiva</h1>
@@ -122,7 +122,7 @@
         </div>
 		<!--End Sobre Nosotros - Nuestro Equipo-->
 		<!--Servicios-->
-        <div class="container__service container__card-primary div__offset">
+        <div class="container__service container__card-primary div__offset" id="services">
             <div class="service card__primary">
                 <div class="text__service text__card-primary">
                     <p>QUE HACEMOS</p>
@@ -169,20 +169,12 @@
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
-                    <div class="card__service box__card-primary">
-                        <img src="img/services/file.png" alt="">
-                        <h2>Control empresarial completo</h2>
-                        <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation</p>
-                        <a href="#">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 		<!--End Servicios-->
 		<!--Proyectos-->
-        <div class="container__proyect div__offset">
+        <div class="container__proyect div__offset" id="plans">
             <div class="service card__primary">
                 <div class="text__service text__card-primary">
                     <p>NUESTROS PROYECTOS</p>
@@ -207,7 +199,7 @@
 		<!--End Proyectos-->
 
         <!--Formulario Inicio-->
-        <div class="container__form div__offset">
+        <div class="container__form div__offset" id="form">
             <div class="form">
                 <section class="text__form">
                 <div class="contact-form">
@@ -245,6 +237,42 @@
         <section class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7897.393943720184!2d-73.32046153886246!3d8.233196072636504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e677a34fd9ca3a3%3A0xb0dc8c0d51bbb7c2!2sUniversidad%20Francisco%20de%20Paula%20Santander%20Oca%C3%B1a!5e0!3m2!1ses!2sco!4v1728415114267!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+        <!--Inicio Video-->
+        <div class="media-container">
+            <div class="video-section">
+                <h2>Reproductor de Video</h2>
+                
+                <video width="100%" src="video/videoTaekwondoAthenas2004.mp4" controls>
+
+                </video>
+            </div>
+        </div>
+        <!--End Video-->
+
+        <!--Inicio Tabla Profesores-->
+            <div class="table-container" id="tableProfesores">
+                <h2>Aquí estan nuestros profesores y sus contactos</h2>
+                <table class="table-profesores">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Número</th>
+                            <th>Rol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alvaro Quintero</td>
+                            <td>alvaroquintero@gmail.com</td>
+                            <td>320 342 6524</td>
+                            <td>Profesor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <!--End Tabla Profesores-->
     </main>
 	<!--End Main->
 </body>
